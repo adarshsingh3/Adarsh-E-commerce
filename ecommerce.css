@@ -105,7 +105,7 @@ a {
     display: flex;
     /* flex-wrap: wrap; */
     font-size: 20px;
-    background: url(logo-leaf-new.png);
+    background: url(/images/logo-leaf-new.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 500px;
@@ -327,15 +327,15 @@ button:hover {
 }
 
 #shop1 {
-    background-image: url(lemonphoto.jpeg);
+    background-image: url(/images/lemonphoto.jpeg);
 }
 
 #shop2 {
-    background-image: url(pattagobhi.jpeg);
+    background-image: url(images/pattagobhi.jpeg);
 }
 
 #shop3 {
-    background-image: url(soyabeen.jpeg);
+    background-image: url(/images/soyabeen.jpeg);
 }
 
 #shop1 h3,
@@ -454,7 +454,7 @@ button:hover {
     /* border: 2px solid black; */
     position: relative;
     bottom: 33px;
-    background-image: url(capsicum.jpeg);
+    background-image: url(/images/capsicum.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     transition: all .2s;
