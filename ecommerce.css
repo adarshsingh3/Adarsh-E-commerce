@@ -82,7 +82,7 @@ a {
     margin: 0px 20px;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     color: #333333;
 
@@ -102,7 +102,7 @@ a {
 }
 
 
-/* container */
+/* main */
 
 .container {
     height: 100%;
@@ -126,7 +126,8 @@ a {
 }
 
 .box1 img{
-    width: 607.975px;
+ 
+    max-width:607.975px ;
     height: 520.7px;
 }
 
@@ -148,7 +149,7 @@ a {
 }
 
 .heading {
-    font-size: 52px;
+    font-size: 3.25rem;
     font-family: 'Merriweather', serif;
     color: #111111;
     margin: 0px 0px 20px;
@@ -172,7 +173,7 @@ button a {
     width: 167.28px;
     height: 46.76px;
     margin-top: 13px;
-    font-size: 14px;
+    font-size:0.875rem;
     color: #FFFFFF;
     letter-spacing: 1px;
     text-decoration: none;
@@ -239,13 +240,14 @@ button:hover {
    
 
 } */
-/* main */
+
 
 .main {
     height: 200px;
     width: 100%;
     background-color: #111111;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .section {
@@ -258,6 +260,7 @@ button:hover {
 .sectiondiv {
     height: 120px;
     width: 260px;
+  
     background-color: #333333;
     border-radius: 3px;
     padding: 25px;
@@ -282,7 +285,7 @@ button:hover {
 #div4 a {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Merriweather', serif;
 }
 
@@ -306,7 +309,7 @@ button:hover {
     margin: auto;
     padding: 120px;
     border-spacing: 20px;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-family: 'Merriweather', serif;
 }
 
@@ -337,7 +340,7 @@ button:hover {
 
 .best-selling-product li p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 13.6px;
+    font-size: 0.85rem;
 }
 
 .sale {
@@ -413,7 +416,7 @@ button:hover {
 #shop1 h3,
 #shop2 h3,
 #shop3 h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Merriweather', serif;
 }
 
@@ -438,7 +441,7 @@ button:hover {
 
 .offer h2 {
     color: #FFFFFF;
-    font-size: 34px;
+    font-size: 2.125rem;
     font-weight: bold;
     font-family: 'Merriweather', serif;
 }
@@ -460,7 +463,7 @@ button:hover {
 }
 
 .offerbelow h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 /* Customers Reviews */
@@ -572,7 +575,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Merriweather', serif;
     height: 96.6px;
     width: 172px;
@@ -631,7 +634,7 @@ button:hover {
 .footer2 h4 {
     height: 50px;
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-family: 'Merriweather', serif;
 }
 
@@ -672,7 +675,7 @@ button:hover {
     color: #FFFFFF;
     height: 10%;
     font-family: 'Merriweather', serif;
-    font-size: 14.6699px;
+    font-size: 0.9169rem;
 }
 
 .footer32 {
@@ -691,7 +694,7 @@ button:hover {
 
 .footer33 h4 {
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 1.375rem;
     height: 20px;
     margin-bottom: 25px;
     font-family: 'Merriweather', serif;
@@ -757,7 +760,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 52px;
+    font-size: 3.25rem;
     font-family: 'Merriweather', serif;
 }
 
@@ -789,7 +792,7 @@ button:hover {
 }
 
 .FavouriteStore1 h2 {
-    font-size: 34px;
+    font-size: 2.125rem;
     font-family: 'Merriweather', serif;
 }
 
@@ -823,7 +826,7 @@ button:hover {
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Merriweather', serif;
 
 }
@@ -842,7 +845,7 @@ button:hover {
 .countnumbersubset2 p,
 .countnumbersubset3 p,
 .countnumbersubset4 p {
-    font-size: 19px;
+    font-size: 1.1875rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
 }
@@ -850,7 +853,7 @@ button:hover {
 .countnumbersubset2 span,
 .countnumbersubset3 span,
 .countnumbersubset4 span {
-    font-size: 46px;
+    font-size: 2.875rem;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -930,7 +933,7 @@ button:hover {
 }
 
 .certifiedProduct21 h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Merriweather', serif;
     margin: 0px 0px 15px;
 }
@@ -940,7 +943,7 @@ button:hover {
 }
 
 .certifiedProduct2 h2 {
-    font-size: 34px;
+    font-size: 2.125rem;
     font-family: 'Merriweather', serif;
     padding: 0px 0px 9px;
 }
@@ -984,7 +987,7 @@ button:hover {
 
 .startshopingbutton {
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'Open Sans', sans-serif;
     margin-top: -30px;
 }
@@ -997,7 +1000,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 52px;
+    font-size: 3.25rem;
     font-family: 'Merriweather', serif;
     margin-top: -50px;
 
@@ -1069,7 +1072,7 @@ button:hover {
 }
 
 .FrequentlyAskedQuestion {
-    font-size: 34px;
+    font-size: 2.125rem;
     font-family: 'Merriweather', serif;
     padding-bottom: 20px;
 }
